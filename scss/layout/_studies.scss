@@ -1,0 +1,60 @@
+.case-section-info {
+  background-color: var(--color-dark);
+  display: flex;
+  border-radius: 45px;
+  padding: 70px 60px;
+  gap: 128px;
+  color: var(--color-fon);
+  position: relative;
+}
+
+.case-section-info p {
+  max-width: 286px;
+}
+
+.text-lines::before {
+  position: absolute;
+  content: '';
+  border: 1px solid #fff;
+  width: 186px;
+  height: 0;
+  transform: rotate(-90deg);
+  right: 60%;
+  top: 50%;
+}
+
+.text-lines::after {
+  position: absolute;
+  content: '';
+  border: 1px solid #fff;
+  width: 186px;
+  height: 0;
+  transform: rotate(-90deg);
+  right: 27%;
+  top: 50%;
+}
+
+.button-studies {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 20px;
+  fill: var(--color-brand);
+  color: var(--color-brand);
+  padding: 0;
+}
+
+.button-studies:hover {
+  fill: var(--color-fon);
+  color: var(--color-fon);
+}
+
+.case-section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.case-section {
+  padding: 0 0 60px 0;
+}

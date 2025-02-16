@@ -1,0 +1,42 @@
+.happen-section {
+  padding: 120px 0 60px 0;
+
+  &__rel {
+    position: relative;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  &__fon {
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__text {
+    max-width: 500px;
+  }
+  &__button {
+    margin: 0 auto 0 0;
+  }
+
+  &__box {
+    justify-content: space-between;
+    background-color: var(--color-gray);
+
+    display: flex;
+    border-radius: 45px;
+    padding: 60px;
+  }
+}
+
+.happen-section-image {
+  height: 400px;
+  position: absolute;
+  top: -20px;
+  right: 135px;
+}

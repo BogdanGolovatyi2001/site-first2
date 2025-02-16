@@ -1,0 +1,22 @@
+@import './base';
+@import './variables';
+@import './fonts';
+@import './text';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/partner';
+@import './layout/services';
+@import './layout/happen';
+@import './layout/studies';
+@import './layout/process';
+
+@import './utils/links';
+@import './utils/card';
+
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}

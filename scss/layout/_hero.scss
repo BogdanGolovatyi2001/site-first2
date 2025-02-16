@@ -1,0 +1,58 @@
+.hero-container {
+  display: flex;
+  padding: 70px 0;
+  justify-content: space-between;
+}
+
+.hero-title {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  max-width: 530px;
+  justify-content: space-between;
+}
+
+.hero-img {
+  display: block;
+  background-size: cover;
+  animation-name: sweem;
+  animation: sweem 3s infinite linear;
+}
+@keyframes sweem {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.hero-title-text {
+  font-weight: 500;
+
+  font-size: 60px;
+}
+
+/*hero-button*/
+
+.hero-button {
+  font-size: 20px;
+  padding: 20px 35px;
+  border-radius: 14px;
+  cursor: pointer;
+  color: var(--color-fon);
+  background-color: var(--color-dark);
+  margin: 0 auto 0 0;
+  display: block;
+  border: 1px solid var(--color-dark);
+}
+
+.hero-button:hover {
+  color: var(--color-dark);
+  border: 1px solid var(--color-dark);
+  background-color: transparent;
+}

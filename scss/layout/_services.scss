@@ -1,0 +1,18 @@
+/*card*/
+.services-title {
+  display: flex;
+  gap: 40px;
+  padding: 80px 0;
+}
+.services-title-h {
+  font-weight: 500;
+  font-size: 40px;
+  color: var(--color-black);
+  background-color: var(--color-brand);
+  border-radius: 7px;
+  padding: 0px 7px;
+}
+
+.services-title-text {
+  max-width: 580px;
+}

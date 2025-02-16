@@ -1,0 +1,129 @@
+.card-plase {
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 40px;
+  row-gap: 40px;
+}
+
+.card img {
+  object-fit: none;
+  width: 210px;
+  margin: auto 0;
+}
+
+.card {
+  display: flex;
+  border: 1px solid var(--color-dark);
+  border-radius: 45px;
+  padding: 50px;
+  width: 600px;
+  height: 310px;
+  justify-content: space-between;
+  box-shadow: 0 5px 0 0 var(--color-dark);
+  transition: 0.3s;
+
+  &__1 {
+    background: var(--color-gray);
+  }
+  &__1:hover {
+    scale: 1.05;
+  }
+
+  &__2 {
+    background: var(--color-brand);
+  }
+  &__2:hover {
+    scale: 1.05;
+  }
+  &__3 {
+    background: var(--color-dark);
+  }
+  &__3:hover {
+    scale: 1.05;
+  }
+}
+
+.card-h-green {
+  font-weight: 500;
+  font-size: 30px;
+  border-radius: 7px;
+  padding: 0px 7px;
+  margin: 0 auto 0 0;
+  background-color: var(--color-brand);
+}
+
+.card-h-gray {
+  font-weight: 500;
+  font-size: 30px;
+  background-color: var(--color-fon);
+  border-radius: 7px;
+  padding: 0px 7px;
+  margin: 0 auto 0 0;
+}
+
+.card-text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.first-card-button {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 15px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.circle-button {
+  height: 41px;
+  width: 41px;
+  background: var(--color-dark);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+
+  &__blak {
+    background: var(--color-fon);
+  }
+}
+
+.cart-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.team-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.first-card-arrow {
+  fill: var(--color-brand);
+}
+
+.first-card-button:hover .first-card-arrow {
+  fill: var(--color-fon);
+}
+/*blak-card*/
+.blak-card-button {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 15px;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--color-fon);
+}
+.dark-card-arrow {
+  fill: var(--color-dark);
+}
+
+.blak-card-button:hover .circle-button {
+  background-color: var(--color-brand);
+}

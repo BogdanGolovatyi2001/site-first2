@@ -1,0 +1,112 @@
+.team-cards {
+display:flex;
+flex-wrap: wrap;
+gap: 39px;
+padding-bottom:40px ;
+}
+
+.box-title-mate{
+display: flex;
+gap: 20px;
+
+}
+
+.team-card img {
+    width: 106px;
+
+    height: 103px;
+}
+
+.name-mate {
+font-weight: 500;
+font-size: 20px;
+
+}
+
+.mate-button-name {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.short-info {
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+}
+
+.team-card {
+
+ display: flex;
+ flex-direction: column;
+gap:56px ;
+border: 1px solid var(--color-dark);
+border-radius: 45px;
+padding: 40px 35px;
+box-shadow: 0 5px 0 0 var(--color-dark);
+background:transparent;
+min-height: 331px;
+max-width: 387px;
+
+}
+
+.about-mate {
+max-width: 317px;
+display: flex;
+flex-direction: column; 
+}
+.about-mate::before {
+position: relative;
+top: -26px;
+content: '';
+border: 1px solid var(--color-dark);
+width: 317px;
+height: 0px;
+
+}
+
+.in-button {
+    fill: var(--color-brand);
+    
+
+}
+.in-button-kolo {
+    background-color: var(--color-dark);
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;  
+}
+
+.in-button-kolo:hover {   
+    
+    background-color: var(--color-brand);
+}
+
+.in-button-kolo:hover .in-button {
+    fill: var(--color-dark);
+}
+
+.team-button {
+    
+        font-size: 20px;
+        padding: 20px 35px;
+        border-radius: 14px;
+        cursor: pointer;
+        color: var(--color-fon);
+        background-color: var(--color-dark);
+        margin: 0 0 0 auto ;
+        display: block;
+        border: 1px solid var(--color-dark);
+      }
+      
+      .team-button:hover {
+        color: var(--color-dark);
+        border: 1px solid var(--color-dark);
+        background-color: transparent;
+    
+}

@@ -1,0 +1,119 @@
+
+.form-section {
+
+    padding-bottom: 140px;
+}
+
+
+
+
+.contact-box {
+    background-color: var(--color-gray);
+    display: flex;
+    border-radius: 45px;
+    padding: 60px 0 62px 100px;
+    justify-content: space-between;
+}
+
+
+
+  .img-container {
+    
+        width: 367px; /* Фіксуємо ширину видимої області */
+        height: 648px; /* Висота контейнера */
+        background-image: url('../images/image-box.png');
+        background-size: auto 100%; /* Щоб зображення повністю вміщувалося по висоті */
+        background-position: left top; /* Ліва частина */
+        background-repeat: no-repeat;
+        overflow: hidden;
+      }
+
+      .form-box {
+       
+        display: flex;
+        flex-direction: column;
+        width: 556px; ;
+    
+
+      }
+
+      .form-button {
+        margin-top: 15px;
+        padding: 20px 35px;
+        border-radius: 14px;
+        border: 1px solid var(--color-dark);
+        background-color: var(--color-dark);
+        color: var(--color-fon);
+        font-size: 20px;
+        text-align: center;
+        display: block;
+        cursor: pointer;
+        width: 100%;
+      }
+
+      .form-button:hover {
+        background-color:var(--color-fon);
+        color: var(--color-dark);
+      }
+
+      .radio {
+        display: flex;
+        gap: 35px ;
+        
+       
+      }
+
+      .radio-dot {
+        margin: 0;
+        width: 30px;
+        height: 30px;
+        accent-color: var(--color-brand);
+       
+    
+      }
+
+      .radio-item {
+        align-items: center;
+        display: flex;
+        gap: 14px ;
+        margin-bottom: 40px;
+
+      }
+
+      .input-plase {
+        background-color: white;
+        border: 1px solid var(--color-dark);
+        border-radius: 14px;
+        padding: 18px 30px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        font-size: 18px;
+        width: 100%;
+      }
+
+      .input-plase::placeholder {
+        font-family: Space Grotesk, sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #898989;
+      }
+      .input-plase:focus {
+        border: 1px solid var(--color-brand);
+        outline: none;
+      }
+      
+      .input-title {
+        font-size: 16px;
+        line-height: 175%;
+        margin-bottom: 5px;
+      }
+
+      .input-plase-mess {
+        height: 100%;
+        resize: none;
+       
+       
+      }
+
+
+  

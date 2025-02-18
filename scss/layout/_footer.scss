@@ -1,0 +1,59 @@
+.footer-box {
+    background-color: var(--color-dark);
+    border-radius: 45px 45px 0 0;
+    padding: 55px 60px 50px 60px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu{
+    display: flex;
+    gap: 40px ;
+}
+
+.logo-footer {
+    fill: var(--color-fon);
+}
+
+.logo-footer:hover{
+    fill: var(--color-brand);
+    
+}
+
+.link-footer {
+    color: var(--color-fon);
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+  
+}
+
+.link-footer:hover {
+    color: var(--color-brand);
+  }
+  
+.socisl-icons {
+    display: flex;
+    gap: 20px;
+
+    
+}
+  .in-icon-kolo {
+    background-color: var(--color-fon);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+.in-icon-kolo:hover {    
+    background-color: transparent;
+}
+
+.in-icon-kolo:hover .in-icon {
+    fill: var(--color-brand);
+}

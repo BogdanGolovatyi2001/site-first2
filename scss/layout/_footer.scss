@@ -38,6 +38,10 @@
     gap: 20px;
 
     
+    .in-icon {
+        display: flex;
+        justify-content: center;
+    }
 }
   .in-icon-kolo {
     background-color: var(--color-fon);
@@ -56,4 +60,76 @@
 
 .in-icon-kolo:hover .in-icon {
     fill: var(--color-brand);
+}
+
+.contact-box-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    
+
+}
+
+.footer-contact {
+    color: var(--color-fon);
+    text-decoration: none;
+}
+.footer-contact:hover {
+    color: var(--color-brand);
+    
+}
+
+.footer-contact-area {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.footer-contact-title {
+    background-color: var(--color-brand);
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 7px;
+    padding: 0px 7px;
+    
+}
+
+.footer-box-news {
+    background-color: var(--color-dark-gray);
+    border-radius: 14px;
+    padding: 58px 40px;
+    
+   
+   
+
+}
+
+.email-footer-input {
+    background-color: transparent;
+    color: var(--color-fon);
+    border: 1px solid var(--color-fon);;
+    border-radius: 14px;
+    padding: 22px 35px;
+    outline: 0;
+}
+
+.email-footer-input::placeholder {
+    color: var(--color-fon);
+}
+
+.button-footer-news {
+    margin-left: 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 14px;
+    padding: 20px 35px;
+    background-color: var(--color-brand);
+    cursor: pointer;
+    }
+.button-footer-news:hover {
+   
+    background-color: var(--color-dark);
+    color: var(--color-brand);
+    
 }
